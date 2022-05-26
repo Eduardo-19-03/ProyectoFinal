@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+
+}
+
+body{
+    background: url(../Img/imagen-Cielo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenedor-form{
+    position: relative;
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    max-width: 500px;
+    margin: 48px auto;
+    color: #fff;
+    border-radius: 5px;
+    /*padding: 40px;*/
+}
+
+.contenedor-form .toggle{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    border-top: 2px solid #ff851b;
+    border-bottom: 2px solid #ff851b;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.contenedor-form .toggle span{
+    letter-spacing: 1px;
+}
+
+.contenedor-form .toggle:hover{
+    border-top: 2px solid #0075d9;
+    border-bottom: 2px solid #0075d9;
+}
+
+.contenedor-form h2{
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.contenedor-form input[type="text"],
+.contenedor-form input[type="password"],
+.contenedor-form input[type="email"]{
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #ff851b;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 20px 0;
+    transition: all .5s ease;
+}
+
+.contenedor-form input[type="text"]:focus,
+.contenedor-form input[type="password"]:focus,
+.contenedor-form input[type="email"]:focus{
+    border-bottom: 4px solid #0075d9;
+}
+
+.contenedor-form input[type="submit"]{
+    background: #ff851b;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor-form input[type="submit"]:hover{
+    background: rgba(0, 117, 217,0.7);
+}
+
+.contenedor-form .reset-password{
+    background: rgba(0, 117, 217,0.7); 
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.contenedor-form .reset-password a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contenedor-form .formulario{
+    padding: 40px;
+    display: none;
+}
+
+.contenedor-form .formulario:nth-child(2){
+    display: block;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+  }
+  
+  .pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+  }
+  
+  .pie-pagina .grupo-1 .box-figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+  }
+  
+  .pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  
+  .pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+  }
+  
+  .pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+  }
+  
+  .pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua
+  }
+  
+  .pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .pie-pagina .grupo-2 small{
+    font-size: 15px;
+  }
+  
+  @media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap:30px;
+      padding: 35px 0px;
+    }
+  }
+
+
+

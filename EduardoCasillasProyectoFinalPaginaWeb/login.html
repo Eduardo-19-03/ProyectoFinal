@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://kit.fontawesome.com/fea1e2fffc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="contenedor-form">
+        <div class="toggle">
+            <span> Crear Cuenta</span>
+        </div>
+
+        <div class="formulario">
+            <h2>Iniciar sesión</h2>
+            <form action="#" method = "POST" id = "form">
+                <input type="text" id = "usuario" placeholder="Usuario" required>
+                <input type="password" id = "password" placeholder="Contraseña" required>
+                <input type="submit" value="Iniciar Sesión">
+                <p class="warnings" id="warnings"></p>
+            </form>
+        </div>
+        <div class="formulario">
+            <h2>Crea tu cuenta</h2>
+            <form action="#">
+                <input type="text" id = "usuario" placeholder="Usuario" required>
+                <input type="password" id = "password" placeholder="Contraseña" required>
+                <input type="email" id = "email" placeholder="Correo Electrónico"required>
+                <input type="submit" value="Registrarse">
+                <p class="warnings" id="warnings"></p>
+            </form>
+        </div>
+
+        <div class="reset-password">
+            <a href="#">Olvide mi contraseña</a>
+        </div>
+    </div>
+
+    <Script src="js/jquery-3.1.1.min.js"></Script>
+    <script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+
+
+body{
+    display: flex;
+}
+
+.contenedor{
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    width: 60%;
+    background: #fff;
+    padding: 10px;
+}
+
+.principal{
+    background:  #0CB1BF;
+    padding: 10px;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+}
+
+.header{
+    display: flex;
+}
+
+.nombre{
+    margin-left: 40px;
+    width: 100%;
+}
+
+.titulo{
+    border: 1px solid #0cac14;
+    color: #abbabb;
+}
+
+/*para las habilidades*/
+
+.habilidades{
+    width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.container{
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills{
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.html{
+    background-color: #04aa6d;
+    animation: fillhtml 2s forwards;
+}
+
+.css{
+    background-color: #2196F3;
+    animation: fillcss 2s forwards;
+}
+
+.javascript{
+    background-color: #f44336;
+    animation: filljavascript 2s forwards;
+}
+
+.mysql{
+    background-color: #9910d8;
+    animation: fillmysql 2s forwards;
+}
+
+.java{
+    background-color: #09ddd2;
+    animation: filljava 2s forwards;
+}
+
+@keyframes fillhtml{
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+
+@keyframes fillcss{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+
+@keyframes filljavascript{
+    0%{width: 0;}
+    100%{width: 20%;}
+}
+
+@keyframes fillmysql{
+    0%{width: 0;}
+    100%{width: 50%;}
+}
+
+@keyframes filljava{
+    0%{width: 0;}
+    100%{width: 45%;}
+}

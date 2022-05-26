@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz</h1>
+        <p>Juego de pregutnas sobre mí</p>
+    </header>
+
+    <div class="container">
+        <section id="p0">
+            <h3> 1- ¿Cuál es mi nombre?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Eduardo
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Manolo
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Pedro
+            </label>
+        </section>
+        <section id="p1">
+            <h3> 2- ¿Cuál es mi apellido?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Casillas
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Garcia
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Junior
+            </label>
+        </section>
+        <section id="p2">
+            <h3> 1- ¿Que estoy estudiando ahora?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> DAW
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> DAM
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> Ingenieria informática
+            </label>
+        </section>
+        <section id="p3">
+            <h3> 1- ¿De qué país soy?</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> España
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Argentina
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Perú
+            </label>
+        </section>
+        <section id="p4">
+            <h3> 1- ¿Que se me da mejor?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Java
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> CSS
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> HTML
+            </label>
+        </section>
+
+        <button>CORREGIR</button>
+        <h2>Cantidad de preguntas acertadas: </h2> <span id="resultado"></span>
+    </div>
+    
+    <script src="js/quiz.js"></script>
+</body>
+</html>
